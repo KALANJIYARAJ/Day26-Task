@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom';
 
 function EditUser() {
 
-  
   const params = useParams()
 
   const formik = useFormik({

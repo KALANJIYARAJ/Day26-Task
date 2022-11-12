@@ -26,31 +26,31 @@ function ViewUser() {
   return (
     <div className="container-fluid">
       
-      <div className="row">
-        <h1>Id:{users.id}</h1>
+      <div className="row p-5">
+        <h1>Id:{users.id}</h1> <hr/>
         <div className="col-6">
-            Username:{users.name}
+           <h5>Username:{users.name}</h5> 
         </div>
         <div className="col-6">
-            Email:{users.email}
+        <h5>Email:{users.email}</h5> 
         </div>
         <div className="col-6">
-            Country:{users.country}
+        <h5>Country:{users.country}</h5>
         </div>
         <div className="col-6">
-            State:{users.state}
+        <h5>State:{users.state}</h5>
         </div>
         <div className="col-6">
-            City:{users.city}
+        <h5>City:{users.city}</h5>
         </div>
         <div className="col-6">
-            Phone:{users.phone}
+        <h5>Phone:{users.phone}</h5>
         </div>
         <div className="col-6">
-            DOB:{users.dob}
+        <h5>DOB:{users.dob}</h5> 
         </div>
         <div className="col-6">
-            Gender:{users.gender}
+        <h5>Gender:{users.gender}</h5>
         </div>
       </div>
     </div>
