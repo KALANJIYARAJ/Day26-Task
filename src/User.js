@@ -46,7 +46,7 @@ function User() {
 
       { isLoading ? 
       <div class="spinner-border text-primary" role="status">
-  <span class="sr-only">Loading...</span>
+  <span class="sr-only">Loading....</span>
       </div> :
       <div class="card shadow mb-4">
         <div class="card-header py-3">
